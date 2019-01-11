@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NursingCare</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+
+    <!-- Dummy data -->
+    <string name="username_login">javi</string>
+    <string name="password_login">1</string>
+
+    <!-- description images -->
+    <string name="image_description_splash_screen">Nursing Care</string>
+    <string name="image_description_icon_login">Nursing Care</string>
+
+    <!-- variables name and files -->
+    <string name="variable_name_shared_preferences">user_data</string>
+    <string name="variable_name_username">username</string>
+    <string name="variable_name_password">password</string>
+
+    <!-- Login Activity Text -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_user">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_user_place_holder">Ingresa su usuario</string>
+    <string name="login_password_place_holder">Ingresa tu contraseña</string>
+
+
+</resources>
