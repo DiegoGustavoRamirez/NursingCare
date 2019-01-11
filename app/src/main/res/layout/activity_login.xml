@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LoginActivity"
+        tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+            android:layout_marginTop="@dimen/login_icon_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_icon_height"
+            android:src="@drawable/splash_screen"
+            android:contentDescription="@string/image_description_icon_login"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_title"
+            android:textSize="@dimen/login_title_text_size"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/login_title_text_margin_top"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_user"
+            android:textSize="@dimen/login_texts_size"
+            android:layout_marginTop="@dimen/login_texts_margin_top"
+            android:layout_marginStart="@dimen/login_texts_margin_left"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_edit_text_margin_top"
+            android:layout_marginStart="@dimen/login_edit_text_margin_left"
+            android:layout_marginEnd="@dimen/login_edit_text_margin_right"
+            android:hint="@string/login_user_place_holder"
+            android:inputType="textEmailAddress"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_password"
+            android:layout_marginTop="@dimen/login_text_password_margin_top"
+            android:textSize="@dimen/login_texts_size"
+            android:layout_marginStart="@dimen/login_texts_margin_left"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_edit_text_margin_top"
+            android:layout_marginStart="@dimen/login_edit_text_margin_left"
+            android:layout_marginEnd="@dimen/login_edit_text_margin_right"
+            android:hint="@string/login_password_place_holder"
+            android:inputType="textPassword"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button"/>
+
+</LinearLayout>
