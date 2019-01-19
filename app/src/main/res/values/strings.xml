@@ -23,6 +23,26 @@
     <string name="login_button">Iniciar sesión</string>
     <string name="login_user_place_holder">Ingresa su usuario</string>
     <string name="login_password_place_holder">Ingresa tu contraseña</string>
+    <string name="toast_error_login_message">Credenciales incorrectas</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <!-- Main Activity Text -->
+    <string name="action_settings">Ajustes</string>
+    <string name="nav_header_desc">hola</string>
+    <string name="drawer_option_perfil">Perfil</string>
+    <string name="drawer_option_pacientes">Pacientes</string>
+    <string name="drawer_option_guardias">Guardias</string>
+    <string name="drawer_option_ganancias">Ganancias</string>
+    <string name="drawer_option_home">Home</string>
+    <string name="drawer_option_historial">Historial</string>
+    <string name="fragment_drawer_perfil">PERFIL</string>
+    <string name="fragment_drawer_pacientes">PACIENTES</string>
+    <string name="fragment_drawer_guardias">GUARDIAS</string>
+    <string name="fragment_drawer_ganancias">GANANCIAS</string>
+    <string name="fragment_drawer_home">HOME</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
