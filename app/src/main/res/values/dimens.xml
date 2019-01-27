@@ -19,6 +19,13 @@
     <dimen name="main_nav_header_text_height">10dp</dimen>
     <dimen name="main_nav_header_text_margin">5dp</dimen>
     <dimen name="main_nav_header_text_size">10sp</dimen>
+
+    <dimen name="card_view_next_patients_height">200dp</dimen>
+    <dimen name="card_view_next_patients_margin">10dp</dimen>
+    <dimen name="card_view_next_patients_image_height">80dp</dimen>
+    <dimen name="card_view_next_patients_text_height">30dp</dimen>
+    <dimen name="card_view_next_patients_text_margin">5dp</dimen>
++
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
